@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CI/CD Deployment Test</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #0f172a;
+            color: white;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 650px;
+            padding: 50px 30px;
+            background: #1e293b;
+            border-radius: 18px;
+            border: 1px solid #334155;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+            color: #38bdf8;
+        }
+
+        p {
+            color: #cbd5e1;
+            line-height: 1.8;
+            margin-bottom: 20px;
+        }
+
+        .status {
+            display: inline-block;
+            background: #14532d;
+            color: #86efac;
+            padding: 10px 20px;
+            border-radius: 30px;
+            margin-bottom: 25px;
+        }
+
+        .version {
+            color: #94a3b8;
+            font-size: 13px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="status">
+            ● Website Online
+        </div>
+
+        <h1>CI/CD Deployment Test</h1>
+
+        <p>
+            Welcome to our automated deployment testing environment.
+            This website is hosted on cPanel and will be deployed
+            automatically through GitHub Actions.
+        </p>
+
+        <p>
+            Every time we push changes to GitHub,
+            our server will automatically receive the updates.
+        </p>
+
+        <div class="version">
+            Version 1.0.0 | Deployment Environment
+        </div>
+
+    </div>
+
+</body>
+</html>
